@@ -1,5 +1,5 @@
 {
-  "name": "KaguyaBot",
+  "name": "snfor Bot",
   "version": "1.0.1",
   "description": "It's just a simple bot!",
   "main": "index.js",
@@ -9,7 +9,7 @@
     "dev": "nodemon .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Arjhil",
+  "author": "حمودي سان 🇸🇩",
   "license": "ISC",
   "dependencies": {
     "@duyhau/fca-unofficial": "^1.0.10",
