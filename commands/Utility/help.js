@@ -13,7 +13,6 @@ class Help {
     this.commands = global.client.commands;
     this.tempFolder = path.join(process.cwd(), 'temp');
 
-    // مصفوفة الصور العشوائية
     this.randomImageUrls = [
       "https://i.postimg.cc/ncSwYctL/1198010.jpg",
       "https://i.postimg.cc/x81SxfT1/4k-popstar-ahri-asu-lol-skin-splash-art-4k-wallpaper-pixground.jpg",
@@ -42,9 +41,8 @@ class Help {
     if (pageStr && typeof pageStr === 'string' && pageStr.toLowerCase() === 'الكل') {
       let allCommandsMsg = "╭───────────────◊\n•——[قائمة جميع الأوامر]——•\n";
       
-      commandList.forEach((command) => {
-        const commandName = command.name.toLowerCase();
-        allCommandsMsg += `❏ الإسم : 『${commandName}』\n`;
+      commandList.forEach((command, index) => {
+        allCommandsMsg += `${index + 1}-🍓${command.name} 🍓\n`;
       });
 
       allCommandsMsg += `إجمالي عدد الأوامر: ${totalCommands} أمر\n╰───────────────◊`;
@@ -55,7 +53,7 @@ class Help {
       const commandsToDisplay = commandList.slice(startIndex, endIndex);
       commandsToDisplay.forEach((command, index) => {
         const commandNumber = startIndex + index + 1;
-        msg += `[${commandNumber}] ⟻『${command.name}』\n`;
+        msg += `${commandNumber}-🍓${command.name} 🍓\n`;
       });
 
       msg += `✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏✎\nالصفحة: ${page}/${totalPages}\nإجمالي عدد الأوامر: ${totalCommands} أمر\n🔖 | اكتب 'أوامر رقم الصفحة' لرؤية الصفحات الأخرى.\n 🧿 | اكتب 'أوامر الكل' لرؤية جميع الأوامر.`;
