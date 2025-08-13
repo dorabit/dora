@@ -1,6 +1,7 @@
 export default {
     "prefix": "*", 
-    "BOT_NAME": "ⓜⓘⓚⓞ",
+    "BOT_NAME": "snfor Bot",
+    "DEVELOPER_NAME": "حمودي سان 🇸🇩",
     "ADMIN_IDS": ["61550232547706"],
     "botEnabled": true,
     "autogreet": true, // تمت إضافة هذه الخاصية
@@ -11,7 +12,7 @@ export default {
         "logLevel": "silent",
         "updatePresence": true,
         "selfListen": true,
-        "usedDatabase":false
+        "usedDatabase": false
     },
     database: {
         type: "json",
