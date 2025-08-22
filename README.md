@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://i.pinimg.com/736x/7r/Uc/Zj/7rUcZjfGB.jpg" />
+  <img src="https://i.ibb.co/xtkvnV86/dora.jpg" width="300"/>
 </p>
 
 <h1 align="center">دورا بوت</h1>
@@ -13,7 +13,7 @@
 # ⚜️ المالك : حمودي سان 🇸🇩  
 # ⚜️ الأوامر تتم إضافتها بشكل مستمر  
 
-⚜️ رابط فيسبوك المطور :- https://www.facebook.com/babasnfor80  
+⚜️ رابط فيسبوك المطور :- [اضغط هنا](https://www.facebook.com/babasnfor80)  
 
 # 🤝🏻 من أجل أي أسئلة المرجو التواصل معي
 <p align="center"> 
@@ -21,6 +21,5 @@
 &nbsp; <a href="https://www.tiktok.com/@darkomida2324?lang=en" target="_blank" rel="noopener noreferrer"><img src="https://i.imgur.com/jcWPUix.png" width="100" /></a>    
 &nbsp; <a href="https://github.com/dashboard" target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/plasticine/100/000000/github.png" width="100" /></a>
 &nbsp; <a href="https://m.facebook.com/profile.php/?id=100076269693499" target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/plasticine/100/000000/facebook.png" width="100" /></a>
-&nbsp; <a href="hamoudi.san.bot@gmail.com" target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/plasticine/100/000000/gmail.png" width="100" /></a>
+&nbsp; <a href="mailto:hamoudi.san.bot@gmail.com" target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/plasticine/100/000000/gmail.png" width="100" /></a>
 </p>
-Update README Dora Bot
