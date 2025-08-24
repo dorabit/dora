@@ -39,7 +39,7 @@
     "kaguyabotfca": "^10.3.20",
     "mal-scraper": "^2.13.2",
     "moment-timezone": "^0.5.43",
-    "mongoose": "^7.0.3",
+    "mongoose": "^7.8.7",
     "mqtt": "^3.0.0",
     "nedb": "^1.8.0",
     "node-cron": "^3.0.3",
